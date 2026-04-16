@@ -1,0 +1,62 @@
+.table1 thead th:empty{
+    background:red;
+    border:none;
+}
+
+table.tariff {
+    font-family: candara;
+    font-size: 17px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table.tariff th:first-child,
+table.tariff td:first-child {
+    border: none;
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) { background: blue; } 
+table tr:nth-child(even) { background: red; } 
+
+table.tariff th,
+table.tariff td {
+    border: 1px solid #abbbbb;
+    border-style: none solid;
+    padding: 12px 10px;
+    text-align: center;
+}
+
+
+table.tariff thead th {
+    background: #000000;
+    color: white;
+font-family: arial;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: lighter;
+    white-space: pre-line;
+    border: none;
+}
+   
+
+table.tariff tbody th{
+    background: #f5f5f5;
+}
+
+table.tariff tfoot td {
+    background: #000000;
+    color: orange;
+    font-size: 28px;
+    font-weight: lighter;
+    padding: 15px;
+    border-top: none;
+}
+
+table.tariff tfoot th {
+    background: #ffffff;
+    color: grey;
+    text-align: right;
+    border-top: none;
+}
+
